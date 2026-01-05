@@ -1,0 +1,30 @@
+Resource finding phase completed successfully.
+
+Timestamp: 2026-01-04T17:50:00+00:00
+
+Summary:
+=========
+Papers downloaded: 9
+Datasets documented: 3 (1 with samples downloaded)
+Repositories cloned: 2
+
+Research Topic: LLMs are bad at keeping obvious secrets
+Hypothesis: LLMs reveal/foreshadow information because planning and prose generation are entangled
+
+Key Findings:
+=============
+1. No existing work directly studies "secret-keeping" in story generation
+2. Plan-and-write approaches (hierarchical generation) improve coherence but may leak plan info
+3. Suspense/uncertainty metrics from Wilmot & Keller (2020) can be adapted
+4. WritingPrompts is the primary dataset for story generation research
+5. doc-storygen-v2 provides a ready-to-use plan-and-write framework
+
+Deliverables:
+=============
+- papers/: 9 PDFs with README
+- datasets/: README with download instructions, sample data
+- code/: 2 cloned repos (awesome-story-generation, doc-storygen-v2)
+- literature_review.md: Comprehensive synthesis
+- resources.md: Complete catalog with recommendations
+
+Ready for experiment runner phase.

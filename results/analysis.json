@@ -1,0 +1,61 @@
+{
+  "by_condition": {
+    "baseline": {
+      "n": 8,
+      "mean_early_leakage": 0.49608031660318375,
+      "std_early_leakage": 0.05596404576398244,
+      "mean_late_leakage": 0.48927342519164085,
+      "mean_leakage_ratio": 0.9925146582942415
+    },
+    "twist_aware": {
+      "n": 8,
+      "mean_early_leakage": 0.47440021857619286,
+      "std_early_leakage": 0.04316596686830139,
+      "mean_late_leakage": 0.5031235280136267,
+      "mean_leakage_ratio": 1.0576899177244576
+    },
+    "with_plan": {
+      "n": 8,
+      "mean_early_leakage": 0.43269509822130203,
+      "std_early_leakage": 0.060319846228400954,
+      "mean_late_leakage": 0.5197538087765377,
+      "mean_leakage_ratio": 1.2209330685892787
+    },
+    "with_plan_hide": {
+      "n": 8,
+      "mean_early_leakage": 0.4408762603998184,
+      "std_early_leakage": 0.05871104079426803,
+      "mean_late_leakage": 0.5088939182460308,
+      "mean_leakage_ratio": 1.170682323750616
+    }
+  },
+  "by_model": {
+    "gpt-4.1": {
+      "n": 16,
+      "mean_early_leakage": 0.47308982722461224,
+      "std_early_leakage": 0.048557628826735706,
+      "mean_leakage_ratio": 1.1016743830697742
+    },
+    "claude-sonnet": {
+      "n": 16,
+      "mean_early_leakage": 0.4489361196756363,
+      "std_early_leakage": 0.06854919112953269,
+      "mean_leakage_ratio": 1.119235601109523
+    }
+  },
+  "by_scenario": {},
+  "summary": {
+    "total_experiments": 32,
+    "scenarios_tested": 4,
+    "models_tested": [
+      "gpt-4.1",
+      "claude-sonnet"
+    ],
+    "conditions_tested": [
+      "with_plan_hide",
+      "with_plan",
+      "twist_aware",
+      "baseline"
+    ]
+  }
+}

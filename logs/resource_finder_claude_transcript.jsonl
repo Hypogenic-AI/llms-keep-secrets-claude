@@ -1,0 +1,34 @@
+## Resource Finding Phase Complete
+
+I have completed the resource gathering phase for the research topic **"LLMs are bad at keeping obvious secrets"**. Here's a summary of what was accomplished:
+
+### Papers Downloaded (9 total)
+Located in `papers/`:
+1. **Suspenseful Stories** (Xie & Riedl, 2024) - First work on suspenseful story generation with LLMs
+2. **Modeling Suspense** (Wilmot & Keller, 2020) - Computational metrics for suspense/uncertainty
+3. **Hierarchical Neural Story Generation** (Fan et al., 2018) - Foundational plan-then-write approach
+4. **DOME** (Wang et al., 2024) - Dynamic hierarchical outlining
+5. **ASP Story Generation** (Wang & Kreminski, 2024) - Symbolic planning for story diversity
+6. **Outline-guided Generation** (2024) - Writing Path method
+7. **StoryVerse** (Wang et al., 2024) - LLM-based narrative planning
+8. **Creative Story Evaluation** (Ismayilzada et al., 2024) - Shows LLMs lack suspense
+9. **Agents' Room** (ICLR 2025) - Multi-agent narrative generation
+
+### Datasets Documented (3 total)
+Located in `datasets/`:
+- **WritingPrompts** (HuggingFace) - 300K stories, samples included
+- **ROCStories** - 98K stories (requires registration)
+- **Story Evaluation LLM** - Optional benchmark
+
+### Code Repositories Cloned (2 total)
+Located in `code/`:
+- **awesome-story-generation** - Comprehensive paper collection
+- **doc-storygen-v2** - Facebook's plan-and-write framework (directly usable)
+
+### Key Documents Created
+- `literature_review.md` - Comprehensive synthesis of 9 papers with recommendations
+- `resources.md` - Complete catalog with experimental protocol
+- `.resource_finder_complete` - Completion marker
+
+### Key Finding
+No existing work directly studies whether LLMs "keep secrets" when conditioned on plans. This research fills a significant gap by investigating whether explicit planning helps or hinders appropriate information management in narratives.
