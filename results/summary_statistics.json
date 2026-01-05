@@ -1,0 +1,28 @@
+{
+  "total_experiments": 32,
+  "conditions": [
+    "baseline",
+    "twist_aware",
+    "with_plan",
+    "with_plan_hide"
+  ],
+  "models": [
+    "gpt-4.1",
+    "claude-sonnet"
+  ],
+  "scenarios": [
+    "murder_mystery",
+    "sci_fi_twist",
+    "thriller_betrayal",
+    "horror_haunting"
+  ],
+  "key_findings": {
+    "baseline_early_leakage": 0.49608031660318375,
+    "with_plan_early_leakage": 0.43269509822130203,
+    "reduction_with_plan": 12.777208903570298,
+    "baseline_leakage_ratio": 0.9925146582942415,
+    "with_plan_leakage_ratio": 1.2209330685892787,
+    "t_test_p_value": 0.0608935652532108,
+    "cohens_d": 1.0894165184484355
+  }
+}
